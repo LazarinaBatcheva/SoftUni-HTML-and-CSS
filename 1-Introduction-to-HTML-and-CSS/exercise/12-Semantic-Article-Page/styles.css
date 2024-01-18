@@ -1,0 +1,22 @@
+body {
+    padding: 5px, 15px;
+    background-color: #e4e978;
+    margin: 15px 10px;
+    width: 700px;
+}
+
+.article, .comments article {
+    padding: 5px 15px;
+    border: 1px solid #b2ad7d;
+    margin: 15px 10px;
+    background-color: #f2f4c0;
+}
+
+.comments {
+    font-style: italic;
+    color: #5c6e91;
+}
+
+.comments h1 {
+    font-size: 1.63em;
+}
