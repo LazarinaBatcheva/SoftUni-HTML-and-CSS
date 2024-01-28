@@ -1,0 +1,57 @@
+body {
+    font: 16px/1.5 Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+}
+
+ul.square {
+    list-style-type: square;
+}
+ul.disc {
+    list-style-type: disc;
+}
+
+ul.circle {
+    list-style-type: circle;
+}
+
+table {
+    width: 100%;
+    border-style:groove;
+    border-collapse: collapse;
+    border-color: rgb(219, 216, 216);
+}
+
+table th {
+    background-color: rgb(196, 192, 192);
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(243, 239, 239);
+}
+
+td {
+    border-style: groove;
+}
+
+tr, th, td {
+    padding-left: 0.5em;
+}
+
+blockquote {
+    border-left-style: solid;
+    border-left-color: rgb(221,221,221);
+    font-style: italic;
+}
+
+blockquote p {
+    padding: 10px 0px 0px 20px;
+}
+
+blockquote footer {
+    text-align: right;
+    padding-bottom: 20px;
+}
