@@ -1,0 +1,44 @@
+@import url('https://use.fontawesome.com/releases/v6.5.1/css/all.css');
+
+body {
+    font: 18px/1.5 Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul.check i {
+    color: #2fcc71;
+    font-size: 25px;
+    margin-right: 5px;
+}
+
+ul.star i {
+    color: coral;
+    font-size: 25px;
+    margin-right: 5px;
+}
+
+ul.contact i {
+    color: #3498da;
+    font-size: 25px;
+    margin-right: 5px;
+}
+
+
+
+
+
+
+/* 
+
+•	The icons in the <ul class="star"> (you can select them like that: ul.star i)
+o	Color: coral
+o	Font size: 25px
+•	The icons in the <ul class="contact"> (you can select them like that: ul.contact i)
+o	Color: #3498da
+o	Font size: 25px
+•	Use FontAwesome for this task. Import it in your CSS, with the @import rule
+
+*/
