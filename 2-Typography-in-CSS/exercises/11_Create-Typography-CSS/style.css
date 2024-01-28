@@ -11,10 +11,14 @@ ul.square {
 }
 ul.disc {
     list-style-type: disc;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 ul.circle {
     list-style-type: circle;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 table {
