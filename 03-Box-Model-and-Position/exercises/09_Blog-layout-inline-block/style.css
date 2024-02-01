@@ -1,0 +1,31 @@
+body {
+    font: 16px/1.5 Helvetica, sans-serif;
+    background-color: rgb(238, 238, 238);
+    padding: 1.5em;
+    color: rgb(51, 51, 51);
+}
+
+h1, h2, h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+img {
+    width: 80%;
+}
+
+footer {
+    margin-top: 3em;
+}
+
+main, aside {
+    display: inline-block;
+    vertical-align: top;
+}
+
+main {
+    width: 60%;
+}
+
+aside {
+    width: 30%;
+}
