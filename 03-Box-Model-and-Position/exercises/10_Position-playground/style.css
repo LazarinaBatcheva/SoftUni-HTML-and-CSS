@@ -22,7 +22,7 @@ img {
     box-shadow: 0 0 1em 0 rgb(0, 0, 0, 1);
 }
 
-.card::after {
+.card::before {
     display: block;
     content: "";
     position: absolute;
@@ -39,6 +39,12 @@ img {
     right: 1em;
     fill: #fff;
 }
+
+.card svg:hover {
+    fill: #ffe100;
+    cursor: pointer;
+}
+    
 
 .viewport {
     width: 100%;
