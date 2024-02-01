@@ -1,0 +1,46 @@
+body {
+    font: 16px/1.5 Helvetica, sans-serif;
+    padding: 2em;
+}
+
+header {
+    border-bottom: 2px solid grey;
+    overflow: hidden;
+}
+
+header h1 {
+    padding: 0;
+    float: left;
+}
+
+header nav {
+    display: inline-block;
+    margin-top: 40px;
+}
+
+nav ul {
+    padding: 0 0 0 6em;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(59, 182, 59);
+    padding: 0.5em 1em;
+}
+
+
+main {
+    padding: 15px;
+}
+
+main h2 {
+    font-family: Georgia, serif;
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: 5px;
+}
