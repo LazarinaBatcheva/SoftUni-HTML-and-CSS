@@ -1,0 +1,110 @@
+body {
+    background-color: rgb(238, 238, 238);
+    font: 18px/1.5 Helvetica, sans-serif;
+    padding: 5em;
+}
+
+.site-title p,
+.site-title nav,
+.site-title nav li {
+    display: inline-block;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.site-title {
+    border-bottom: 3px solid #696565;
+}
+
+.site-title p {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.site-title nav {
+    float: right;
+    margin-top: 25px;
+}
+
+.site-title nav li {
+    padding-left: 4em;
+}
+
+.site-title nav a {
+    text-decoration: none;
+    color: rgb(0, 102, 0);
+}
+
+main, aside {
+    display: inline-block;
+    vertical-align: top;
+}
+
+main {
+    width: 70%;
+}
+
+aside {
+    width: 20%;
+    float: right;
+}
+
+h1, h2, h3 {
+    font: 1.5em/1.2 Georgia, serif;
+}
+
+.first-section {
+    display: inline-block;
+    padding: 0;
+}
+
+.first-section img {
+    float: right;
+    padding: 0.5em;
+    margin-left: 10px;
+    border: 3px solid #000;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 0.5em 0.2em rgba(0, 0, 0, 0.25);
+}
+
+.left-column, .author-section {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.left-column {
+    float: left;
+    width: 55%;
+}
+
+.author-section {
+    float: right;
+    width: 35%;
+    padding-left: 2em;
+    border-left: 3px solid rgb(195, 190, 190);
+    font-family: Georgia, serif;
+    font-style: italic;
+}
+
+.author-section p:nth-child(2) {
+    float: right;
+}
+
+.second-section > p:nth-child(5) {
+    display: inline-block;
+}
+
+.third-section img {
+    float: left;
+    padding: 0.5em;
+    margin: 0 20px 10px 0;
+    border: 3px solid #000;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 0.5em 0.2em rgba(0, 0, 0, 0.25);
+}
+
+aside li a {
+    text-decoration: none;
+    color: rgb(12, 172, 12);
+}
