@@ -1,0 +1,14 @@
+nav ul {
+    display: flex;
+    gap: 1.5em;
+    padding-top: 1em;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+nav ul li a {
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+}
