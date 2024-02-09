@@ -32,14 +32,8 @@ div {
 
 img {
     display: block;
-    width: auto;
-    height: 100%;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 0.3em;
-
+    width: 100%;
+    height: auto;
 }
 
 div:hover {
@@ -47,6 +41,17 @@ div:hover {
     flex: 0 0 400px;
     background-color: #000;
 }
+
 img:hover {
     width: 95%;
+}
+
+div img {
+    width: auto;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 0.3em;
 }
