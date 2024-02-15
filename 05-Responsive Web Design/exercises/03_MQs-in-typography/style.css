@@ -7,7 +7,7 @@
 body {
     padding: 3em 5em;
     background-color: rgb(238, 238, 238);
-    font: 14px/1.5 Helvetica, sans-serif;
+    font: 12px/1.5 Helvetica, sans-serif;
     margin: 0;
 }
 
@@ -84,13 +84,7 @@ blockquote.align-right {
     border-left: 2px solid #ccc;
 }
 
-@media (max-width: 500px) {
-    body {
-        font-size: 12px;
-    }
-}
-
-@media (min-width:500px) {
+@media (min-width:501px) {
     body {
         font-size: 14px;
     }
