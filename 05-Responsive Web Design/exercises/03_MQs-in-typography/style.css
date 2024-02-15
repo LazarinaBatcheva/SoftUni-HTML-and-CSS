@@ -84,7 +84,7 @@ blockquote.align-right {
     border-left: 2px solid #ccc;
 }
 
-@media (min-width:501px) {
+@media (min-width:500px) {
     body {
         font-size: 14px;
     }
