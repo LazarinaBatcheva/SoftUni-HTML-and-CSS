@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap");
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: 14px/1.5 "Ubuntu", sans-serif;
+}
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em 1.5em 2.5em;
+}
+
+.page-title {
+    display: flex;
+    justify-content: end;
+    gap: 1em;
+}
+
+.page-title h1 {
+    font-size: 2.4em;
+    border-right: 2px solid #DFDFDF;
+    padding-right: 0.5em;
+}
+
+.page-title h5 {
+    font-size: 0.8em;
+    color: #717482;
+    letter-spacing: 0.12em;
+    margin-top: 2.2em;
+}
+
+.header-nav ul{
+    display: flex;
+    gap: 0.1em;
+    font-size: 0.8em;
+}
+
+.header-nav ul li {
+    list-style: none;
+    padding: 1em;
+    background-color: #ECECEC;
+}
+
+.header-nav ul li a{
+    text-decoration: none;
+    color: #54575F;
+}
+
+.header-nav ul li:first-child {
+    background-color: #56DBB1;
+}
+
+.page-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-content img{
+    width: 100%;
+    height: auto;
+}
+
+.text-content p {
+    text-align: center;
+    padding: 3em 7em;
+    font-size: 1em;
+}
+
+.green-color {
+    background-color: #56DBB1;
+}
+
+.cinema-info {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    padding: 5em 10em;
+    background-color: #353434;
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    max-width: 20vw;
+    text-align: center;
+}
+
+figure {
+    width: 50px;
+    aspect-ratio: 1/1;
+    margin-left: -1.2em;
+}
+
+figure i {
+    font-size: 2.5em;
+    padding: 0.5em;
+    color: #fff;
+    background-color: #56DBB1;
+}
+
+.info-card h3, .info-card h4 {
+    font-size: 1em;
+    color: #fff;
+}
+
+p.border-top {
+    border-top: 2px solid #878787;
+    padding-top: 2em;
+}
+
+.p-info {
+    font-size: 0.8em;
+    color: #515252;
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3.3em 10em 2.8em;
+}
+
+.link h2 {
+    font-size: 1.4em;
+    color: #5E5758;
+}
+
+.link p {
+    font-size: 0.7em;
+    padding-bottom: 1.5em;
+    color: #BEB9B8;
+}
+
+.link a {
+    padding: 0.7em 1.2em;
+    text-decoration: none;
+    color: #fff;
+    background-color: #974D1B;
+    border: 1px solid #C69E82;
+}
+
+footer {
+    background-color: #1B9772;
+    text-align: center;
+    padding: 2.6em 15.8em;
+}
+
+footer p {
+    font-size: 0.7em;
+    word-spacing: 0.4em;
+    font-weight: bold;
+    color: #44C596;
+}
+
+strong {
+    color: #fff;
+}
