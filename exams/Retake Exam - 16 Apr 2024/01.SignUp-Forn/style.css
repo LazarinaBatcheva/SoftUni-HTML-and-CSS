@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap");
+
+* {
+    margin: 0;
+    pad: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 14px/1.5 "Kode Mono";
+    background-color: #C1BDBA;
+    padding: 3em;
+}
+
+form {
+    max-width: 35em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    margin: 0 auto;
+    padding: 2em;
+    background-color: #24333C;
+    border-radius: 0.2em;
+    box-shadow: 0.14em 0.14em 0.7em rgba(0, 0, 0, 0.5);
+    letter-spacing: 0.07em;
+}
+
+.logIn-btns {
+    display: flex;
+    padding-bottom: 1.3em;
+}
+
+.logIn-btns a {
+    padding: 0.8em 4.4em;
+    text-decoration: none;
+    color: #fff;
+}
+
+.green-background {
+    background-color: #1AB188;
+}
+
+.logIn-btns .hover-btn {
+    background-color: #435359;
+    opacity: 0.5;
+}
+
+.white-text {
+    color: #fff;
+}
+
+.title h3 {
+    font-size: 1.8em;
+    font-weight: normal;
+    padding-bottom: 0.5em;
+}
+
+.reg-data {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.names {
+    display: flex;
+    gap: 1em;
+    justify-content: space-between;
+}
+
+.email-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    padding-bottom: 2em;
+}
+
+.field {
+    position: relative;
+}
+
+.field input[type="text"],
+.field input[type="email"],
+.field input[type="password"] {
+    width: 100%;
+    border: 2px solid rgb(255,255,255,0.1);
+    background: transparent;
+    padding: 0.4em 0.6em;
+    line-height: 1;
+    outline: none;
+    color: #fff;
+}
+
+.field input + label {
+    opacity: 0.5;
+    padding: 0.4em 0.8em;
+    position: absolute;
+    top: 0.3em;
+    left: 0;
+    line-height: 1;
+}
+
+.field input:not(:placeholder-shown) + label,
+.field input:focus + label {
+    display: none;
+}
+
+.field input[required] + label {
+    color: #fff;
+}
+
+.field input[required] + label::after {
+    display: inline-block;
+    content: "*";
+    padding-left: 0.3em;
+    color: #19BD90;
+}
+
+.get-started-btn a {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.8em;
+    letter-spacing: 0.15em;
+    font-weight: bold;
+    outline: none;
+    text-align: center;
+    padding: 0.4em 0.2em;
+}
+
+a.hover-btn:hover {
+    background-color: #179A77;
+    opacity: 1;
+}
